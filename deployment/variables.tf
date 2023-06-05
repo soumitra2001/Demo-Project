@@ -36,6 +36,9 @@ variable "artifact_bucket" {
   type = string
 }
 
+variable "frontend_port" {
+  default = "80"
+}
 
 variable "backend_port" {
   default = 8080

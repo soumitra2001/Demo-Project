@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "springboot.simple-tf-remote-state"
+    bucket = "demo.springboot.simple-tf-remote-state"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }

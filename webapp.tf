@@ -2,7 +2,7 @@ module "app" {
   source = "./deployment"
   application_name = "example-webapp"
   application_version = "c341f5c"
-  artifact_bucket = "springboot.simple-artifacts"
+  artifact_bucket = "demo.springboot.simple-artifacts"
   worker_ami = "ami-0989fb15ce71ba39e"
   instance_profile = "allow_s3_ec2_github_demo"
   backend_port = 8080
